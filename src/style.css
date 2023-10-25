@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(175, 161, 161);
+}
+.container {
+    margin: auto;
+    width: 300px;
+}
+.box {
+    height: 300px;
+    width: 300px;
+}
+#color {
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
