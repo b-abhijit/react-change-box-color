@@ -15,7 +15,7 @@ function App() {
       {console.log("render")}
       <div className='container'>
         <div className="box" style={{ background: `${color}`, border: `1px solid ${color}` }}></div>
-        <input onChange={e => changeColor(e.target.value)} type="text" id="color"/>
+        <input placeholder='Enter color name' onChange={e => changeColor(e.target.value)} type="text" id="color"/>
       </div>
     </>
   )
